@@ -32,4 +32,4 @@ jobs:
       - name: Deploy to Streamlit Cloud
         run: |
           echo "Pushing to main triggers Streamlit Cloud deployment"
-          # No additional steps needed; Streamlit Cloud deploys on push to main
+          # No additional steps needed; Streamlit Cloud deploys on push to main 
