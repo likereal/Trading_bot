@@ -30,6 +30,7 @@ class MLTrader(Strategy):
         last_price = self.get_last_price(self.symbol)
         quantity = round(cash * self.cash_at_risk / last_price,0)
         return cash, last_price, quantity
+        #dummy commit
 
     def get_dates(self): 
         today = self.get_datetime()
